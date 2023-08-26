@@ -16,31 +16,38 @@
     </h1>
     <hr>
     <pre>
-        1. Create a folder specifically for your project
-        # mkdr [YourFolderName] 
+Git bash:
 
-        Output:
+1. Make sure you're in the right directory:
 
-        $ mkdr webDev
-        $ ls - ld webDev
-        drwxr-xr-x 1 EAD+SHIKI 4096 0 Aug 22 18:16 webDev/ 
+pwd <-- Print Working Directory
 
-        2. After creating your folder, change directory using "cd" command 
-        #cd [yourFolderName]
-        Output:
+2. Make sure you configure your credentials
 
-        -/Projects/webDev/
+git config --global user.email "MY_NAME@example.com"
 
-        3. Using git innit we initialized empty Git repository in C:/Users/SHIKI/repo/webDev/.git 
-        
-        4. After initializing you want to make sure that everything is setup properly
-        #ls - lrtha
-        #pwd
+3. Add your remote repository in your local machine
 
-        Output:
+git remote add (localComputer) (url to your repository)
 
-        $ls -lrtha
-        total 9.5M
-        drwxr-xr-x 1 EAD+SHIKI 4096 0 Aug 22 18:16 ../
+4. Make sure you're in the correct branch
+
+git branch -M main
+
+5. Check the your file using git status
+
+git status 
+
+6. Add all your code to the add phase
+
+git add -A .
+
+7. Then commit your code to the repository
+
+git commit -m "Commit code" 
+
+8. Push your code to the repository
+
+git push -u (localComputer) (currentBranch)
 </body>
 </html>
