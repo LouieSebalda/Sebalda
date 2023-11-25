@@ -1,0 +1,56 @@
+.SAGE{
+
+
+    border: 5px black dotted;
+    padding: 200px;
+    background-image: linear-gradient(to right,#e8e1ee,#3be0c3,#16b199,#38646b,#151211);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 1000;
+    line-height: 3em;
+}
+
+.BRIMSTONE{
+
+    border: 5px black dotted;
+    padding: 200px;
+    background-image: linear-gradient(to right,#687c94,#aabcd1,#fcc423,#f08a33,#3d1006);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 3em;
+}
+
+.VIPER{
+
+    border: 5px black dotted;
+    padding: 200px;
+    background-image: linear-gradient(to right,#a1bd48,#00b441,#5c7f6d,#274b35,#201626);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.JETT{
+
+    border: 5px black dotted;
+    padding: 200px;
+    background-image: linear-gradient(to right,#e9f4f7,#73f5ed,#77d4e4,#435680,#0b0e22);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
